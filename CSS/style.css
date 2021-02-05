@@ -1,0 +1,129 @@
+body {
+    background-image: url(https://www.mboutrecht.nl/wp-content/uploads/2018/09/Daltonlaan-opti.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    /* Hide vertical scrollbar */
+    background-color: rgba(36, 138, 255, 0.363);
+    background-blend-mode: screen;
+}
+
+#Jumbotron {
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(83, 83, 83, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin-top: 15px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.397), rgba(114, 112, 112, 0.267));
+    border: 1px solid #b3b3b3c2;
+}
+
+.card1 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0 19px 38px rgba(36, 36, 36, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    min-width: 35rem;
+    min-height: 20rem;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.877), rgba(189, 189, 189, 0.616));
+    margin-left: 90px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.card2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0 19px 38px rgba(36, 36, 36, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    min-width: 35rem;
+    min-height: 20rem;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.877), rgba(189, 189, 189, 0.616));
+    margin-left: 90px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.card-3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0 19px 38px rgba(36, 36, 36, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    min-width: 35rem;
+    min-height: 20rem;
+    background-color: rgba(39, 100, 170, 0.404);
+    margin-left: 90px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.btn {
+    background: rgba(48, 48, 48, 0.534);
+    width: 150px;
+    padding: 2px 0;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-color: rgba(90, 90, 90, 0.041);
+}
+
+.btn:hover {
+    background-color: #3b1ea562;
+    color: rgb(255, 255, 255);
+    border-color: rgba(63, 48, 88, 0);
+}
+
+.card1:hover {
+    background-color: #1b1b1bcb;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 19px 38px rgba(5, 5, 5, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin-top: 15px;
+    transform: scale(1.05);
+    background-image: linear-gradient(rgba(78, 169, 255, 0.63), rgba(255, 255, 255, 0.63));
+}
+
+.card2:hover {
+    background-color: #1b1b1bcb;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 19px 38px rgba(5, 5, 5, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin-top: 15px;
+    transform: scale(1.05);
+    background-image: linear-gradient(rgba(96, 252, 166, 0.644), rgba(255, 255, 255, 0.63));
+}
+
+#MenuCard {
+    margin-left: 0px;
+}
+
+#LoginCard {
+    max-width: 10cm;
+    margin-left: 22%;
+}
+
+label {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input[type] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid rgba(9, 186, 192, 0.521);
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
